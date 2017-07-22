@@ -1,5 +1,7 @@
 # Two Hour Coding Challenge - React
 
+A React version of the [Angular two hour coding challenge](https://github.com/Sb87/two-hour-challenge-angular) as a demonstration React/Redux.
+
 ## Challenge
 
 Build a web app that displays images taken by NASA's Mars rovers, Opportunity and Curiosity.
@@ -29,6 +31,8 @@ Build a web app that displays images taken by NASA's Mars rovers, Opportunity an
 * As a user, I want the app to be responsive.
 
 * **STRETCH**: As a user, I can specify the earth date for which to display images.
+
+# React App Documentation
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

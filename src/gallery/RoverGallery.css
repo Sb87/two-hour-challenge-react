@@ -1,0 +1,37 @@
+.RoverGallery .roundedBtn {
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.RoverGallery .thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.RoverGallery .thumb {
+  max-width: 20%;
+  margin-right: 6.666667%;
+  margin-bottom: 2em;
+}
+
+.RoverGallery .thumb:nth-child(4n) {
+  margin-right: 0;
+}
+
+.RoverGallery .thumb img {
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .RoverGallery .thumb {
+    max-width: 45%;
+    margin-right: 10%;
+    margin-bottom: 2em;
+  }
+
+  .RoverGallery .thumb:nth-child(2n) {
+    margin-right: 0;
+  }
+}
